@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+html{
+    font-family:Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    background: url("../images/br.jpg");
+}
+.header {
+    padding: 20px;
+}
+.header nav{
+    width: 100%;
+    height: 50px;
+    margin-top: 120px;
+    background-color: crimson;
+}
+.header a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 8px 16px;
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.column{
+    width: 25%;
+    float: left;
+}
+.column :hover{
+    background-color: rgba(189, 189, 189, 0.425);
+}
+.san-pham{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+.san-pham > img{
+    border-radius: 15px;
+}
+.san-pham .ten{
+    text-align: left;
+    font-size: 1.3vw;
+    font-variant:small-caps;
+    color: rgb(0, 0, 0);
+}
+.san-pham img{
+    max-width: 95%;
+    border-radius: 15px;
+}
+.san-pham img:hover{
+    padding: 0px;
+    border-radius: 15px;
+}
+.san-pham .gia{
+    color: #E4002B ;
+    font-weight: bold;
+    font-size: larger;
+}
+.san-pham .gia del{
+    font-size: 1vw;
+    font-variant:small-caps;
+    color: gray;
+}
+.san-pham .gia a{
+    font-size: 1vw;
+}
+.header a:hover{
+    overflow: hidden;
+    color: #000000 ;
+}
+.main{text-align: center;}
+.main a{
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+}
+#text{
+    width: 390px;
+    margin: 0px 0px 0px 90px;
+}
+#bg :hover{
+    background-color: orange;
+}
+footer{
+    width: 100%;
+    float: left;
+    font-size: 1vw;
+    height: 200px;
+    bottom: 0;
+    background-color: #E4002B ;
+}
+p{
+    text-align: justify;
+}
+.col_3{
+    color: white;
+    margin: 20px 20px 0px 20px;
+    width: 20%;
+    float: left;
+    text-align: justify;
+    height: 230px;
+    line-height: 30px;
+    text-shadow: 0 0 2px rgb(0, 0, 0);
+}
+.col_4{
+   width: 100%;
+   
+}
+.col_4 .left{
+    width: 40%;
+    float: left;
+}
+.col_4 .right{
+    float: left;
+    width: 60%;
+}
+.col_4>.right img{
+    position: absolute;
+    float: right;
+    width: 70%;
+}
+.col_3 img{
+    width: 100%;
+    height: 60%;
+}
+.col_3 a{
+    font-size: medium;
+    color: white;
+
+}
+.col_3 a:hover{
+    color: blue;
+}
+.san-pham a{
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+.san-pham a:hover{
+    padding: 3px;
+    color: #E4002B ;
+}
+h2{
+    text-decoration: black;
+}
+a:hover{
+    color: white;
+}
+
+.subnav {
+    display: none;
+    position: absolute;
+}
+
+.subnav>li>a {
+    color:black !important;
+    display: block;
+}
+
+.subnav>li {
+    border-bottom: rgb(170, 168, 168) 1px solid;
+}
+
+li:hover .subnav {
+    display: block;
+    list-style: none;
+}
+.map{
+    width: 100%;
+}
+
